@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_website_test/models/MODE.dart';
+import 'package:flutter_website_test/models/caesar_interval.dart';
 import 'package:flutter_website_test/services/caesar.dart';
 import 'package:flutter_website_test/services/file_io.dart';
 import 'package:flutter_website_test/widgets/button.dart';
