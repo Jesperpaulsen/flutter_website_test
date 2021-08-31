@@ -12,7 +12,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   final caesar = Caesar(intervals: [
-    new CaesarInterval(
+    CaesarInterval(
       start: 97,
       stop: 122,
     )
@@ -78,7 +78,6 @@ class _HomeState extends State<Home> {
             ),
           ),
           Container(
-            padding: EdgeInsets.only(right: 20),
             constraints: BoxConstraints(maxWidth: 300),
             child: TextField(
               controller: _textController,
